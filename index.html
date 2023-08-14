@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+    ||||| |||      |||||| [|] |||  ||| |||\\\  \\\    ///
+    |||   |||      |||        |||  ||| ||| \\\  \\\  ///
+    ||||| |||      |||||| ||| |||||||| ||| ///   \\\///
+    |||   |||___   |||    ||| |||  ||| |||\\\     \\//
+    ||||| |||||||  |||    ||| |||  ||| ||| \\\    ///
+        Developer:MOHAMED EL-FIHRY               ///
+        Website:https//:fihry.com
+  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="z" alt="z">
+    <title>ZellCode/from Fihry</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> -->
+    <link rel="stylesheet" media="screen and (min-width: 600px)" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+    <script type="text/javascript" src="script.js"></script>
+    <link type="text/php" href="/login.php">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="main" id="main">
+        <a class="logo" href=""><img src="" alt="">ZELL/CODE</a>
+        <ul>
+            <li><a class="active" href=""><i></i>Home</a></li>
+            <li><a href=""><i></i>Source</a></li>
+            <li><a href=""><i></i>Aout-Us</a></li>
+            <li><a href=""><i></i>Contact's</a></li>
+            <li><a class="drpd"><i></i>Blog</a></li>
+
+        </ul>
+        <div class="Drop-info">
+            <button class="material-icons" type="button" id="loginform" onclick="login()">login</button>
+            <button class="material-icons" type="checkBox" id="myCheck" onclick="Fihry()">menu</button>
+
+        </div>
+    </nav>
+
+    <br>
+    <!--Sidebar-->
+
+    <div class="sidebare" id="change" for="myCheck">
+        <div class="main-sidebare">
+            <div class="bef">
+                <h3>MENU</h3>
+                <button class="material-icons" type="checkBox" id="nonebox" onclick="Fihrynone()">close</button>
+            </div>
+
+            <ul>
+                <li><a href=""><i class="material-icons">source </i>Websit's </a></li>
+                <li><a href=""><i class="material-icons">apps </i>Apps </a></li>
+                <li><a href=""><i class="material-icons">forum </i>Contact's</a></li>
+
+            </ul>
+        </div>
+    </div>
+
+    <!--header-->
+    <div class="intodactioon" id="particles-js">
+        <div class="sterm">
+            <h1>Welcome on ZellCode</h1>
+            <p>ZellCode is the perfect platform for your project if you desire a flawless app or website for your
+                business</p>
+            <span class="btnro">
+                <a class="fancy" href="#">
+                    <span class="top-key"></span>
+                    <span class="text">Buy Tickets</span>
+                    <span class="bottom-key-1"></span>
+                    <span class="bottom-key-2"></span>
+                </a>
+            </span>
+
+        </div>
+    </div>
+
+
+    <!--container-->
+    <section class="ctr">
+        <h3>Theam of developers<i class="fa-duotone fa-people-group"></i></h3>
+
+        <div class="container" id="container">
+            <div class="card"><img src="" alt="" srcset="">
+                <h2>ZAKARIYA</h2>
+                <p>Lorem ipsum dolor sit amet consectetur recusandae, id .</p><button href="">About me</button>
+            </div>
+            <div class="card"><img src="" alt="" srcset="">
+                <h2>IBRAHIME</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p><button href="">About me</button>
+            </div>
+            <div class="card"><img src="" alt="" srcset="">
+                <h2>EL-FIHRY</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit!</p><button href="">About me</button>
+            </div>
+            <div class="card"><img src="" alt="" srcset="">
+                <h2>MARYAM</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elii?</p><button href="">About me</button>
+            </div>
+            <div class="card"><img src="" alt="" srcset="">
+                <h2>AYMAN</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit? </p><button href="">About me</button>
+            </div>
+            <div class="card"><img src="" alt="" srcset="">
+                <h2>SALMAN</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit? </p><button href="">About me</button>
+            </div>
+            <div class="card"><img src="" alt="" srcset="">
+                <h2>RAOUAN</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit? </p><button href="">About me</button>
+            </div>
+            <div class="card"><img src="" alt="" srcset="">
+                <h2>MAROUAN</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit? </p><button href="">About me</button>
+            </div>
+        </div>
+    </section>
+    <!--login interface-->
+    <div id="login" class="login" for="loginform">
+        <div class="login-content">
+            <h2>Login to <span>ZellCode</span></h2>
+            <span class="material-icons" id="close-form" onclick="loginnone()">close</span>
+            <div class="lwc">
+                <a href="" class="login-with" id="#"><img src="img/google-symbol.png" alt=""><span>Google</span></a>
+                <a href="" class="login-with" id="#"><img src="img/facebook.png" alt=""><span>Facebook</span></a>
+                <a href="" class="login-with" id="#"><img src="img/github.png" alt=""><span>Github</span></a>
+            </div>
+            <span>Or</span>
+            <form action="login">
+                <label for="Email">Email</label>
+                <input type="email" class="input" id="email" placeholder="Email">
+                <label for="password">Password</label>
+                <input type="password" class="input" id="password" placeholder="Password">
+                <div class="checks">
+                    <span><input type="checkbox">Remember me</span>
+                    <a href="">Forgot your password?</a>
+                </div>
+                <input type="submit" class="input" value="Sign in">
+            </form>
+            <div class="new-acount" id="new-acount">New a ZellCode? <a href="#" onclick="change1()"> Create an
+                    account</a></div>
+        </div>
+    </div>
+
+    <!--sing-up form-->
+    <div id="Sing-up" class="Sing-up" for="singform">
+        <div class="sing-up-content">
+            <h2>Sing-up to <span>ZellCode</span></h2>
+            <span class="material-icons" id="close-form" onclick="loginnone()">close</span>
+            <a href="" class="sing-up-with" id="#"><img src="img/google-symbol.png" alt=""><span>Sing up with
+                    Google</span></a>
+            <a href="" class="sing-up-with" id="#"><img src="img/facebook.png" alt=""><span>Sing up with
+                    Facebook</span></a>
+            <a href="" class="sing-up-with" id="#"><img src="img/github.png" alt=""><span>sing up with Github</span></a>
+            <a class="other-email" href="/Users/fihry/Downloads/Zellcod v 2/sing-up-form.html">Sing-up with email</a>
+            <div class="Privacy-agree">By creating an account, I agree to ZellCode <a href="">Terms of Service</a>,
+                <a href="">Privacy Policy</a> and <a href="">Intellectual Property Rights</a>
+            </div>
+
+            <div class="login-acount">Already have an account?<span id="login-acount" onclick="change2()">Login</span>
+            </div>
+        </div>
+    </div>
+    <!--Sing-up-with-email -->
+
+    <!-- Footer partition -->
+    <footer>
+        <div class="fp1">
+            <h2>ZellCode</h2>
+            <p>ZellCode makes it easier to build better websites with
+                great speed. Save hundreds of hours of design
+                and development by using it.</p>
+            <a href="">raed more... </a>
+        </div>
+        <div class="fp2">
+            <span>Let your email for contact you</span>
+            <form action="register emails">
+                <label for=""></label>
+                <input type="email">
+                <input type="submit" value="Submit">
+            </form>
+            <span class="smedia">
+                <ol>
+                    <li><a href=""><img src="img/facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="img/instagram.png" alt=""></a></li>
+                    <li><a href=""><img src='img/twitter.png' alt=""></a></li>
+                    <li><a href=""><img src="img/linkedin.png" alt=""></a></li>
+                </ol>
+            </span>
+        </div>
+        <div class="fp3">
+            <ul>
+                Company
+                <li> <a href="">About Us</a></li>
+                <li><a href="">Documentation</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Affiliate Program</a></li>
+            </ul>
+            <ul>
+                Apps
+                <li> <a href="">Ecommerce Pages</a></li>
+                <li><a href="">Social Feed</a></li>
+                <li><a href="">Projects</a></li>
+                <li><a href="">Tasks Management</a></li>
+
+            </ul>
+            <ul>
+                Discover
+                <li><a href="">Help Center</a></li>
+                <li><a href="">Our Products</a></li>
+                <li><a href="">Privacy</a></li>
+            </ul>
+        </div>
+
+
+
+        <!-- links part -->
+        <script src="particles.js"></script>
+        <script src="app.js"></script>
+
+
+</body>
+
+</html>
